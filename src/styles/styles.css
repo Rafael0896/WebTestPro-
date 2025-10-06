@@ -124,3 +124,22 @@ body {
     flex: 1;
 }
 
+.icon {
+    color: #4a90e2;
+    flex-shrink: 0;
+}
+
+.accordion-header.active .icon {
+    color: white;
+}
+
+.accordion-header h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.accordion-content {
+    padding: 30px;
+    background: #fafafa;
+    border-top: 1px solid #e0e0e0;
+}
