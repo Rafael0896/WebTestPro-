@@ -5,9 +5,6 @@ export default function Footer() {
     return (
         <div className="footer">
             <p>💡 Recuerda: Las pruebas son un proceso continuo. Establece un ciclo regular de testing para mantener la calidad de tu aplicación web.</p>
-            <p className="footer-highlight">
-                ¡Buenas pruebas = Usuarios satisfechos!
-            </p>
         </div>
     );
 }
