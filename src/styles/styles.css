@@ -143,3 +143,43 @@ body {
     background: #fafafa;
     border-top: 1px solid #e0e0e0;
 }
+
+.content-section h4 {
+    color: #4a90e2;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.content-section h4:first-child {
+    margin-top: 0;
+}
+
+.content-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.content-section ul li {
+    padding: 8px 0;
+    padding-left: 25px;
+    position: relative;
+    line-height: 1.6;
+}
+
+.content-section ul li:before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+.content-section code {
+    background: #e3f2fd;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    color: #1565c0;
+    font-size: 0.9em;
+}
